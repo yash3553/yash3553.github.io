@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Yashwanth G N - DevOps & Cloud Engineer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="container">
+    <header>
+      <div class="header-text">
+        <h1>Yashwanth G N</h1>
+        <p>Email: yashwanthyashwanthgn@gmail.com | 📞 9741614832</p>
+        <p>Location: Hassan, Karnataka, India</p>
+        <p>
+          <a href="https://github.com/yash3553/" target="_blank">GitHub</a> |
+          <a href="https://www.linkedin.com/in/yashwanth-g-n-10004a318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+        </p>
+      </div>
+      <div class="profile-photo">
+        <img src="assets\profile.jpeg" alt="Yashwanth G N">
+      </div>
+    </header>
+
+    <section>
+      <h2>About Me</h2>
+      <p>DevOps and Cloud Engineer with a strong grasp on automation, infrastructure-as-code, and scalable CI/CD systems. My focus is on delivering secure, robust, and efficient DevOps pipelines using AWS, Kubernetes, and modern DevOps tools.</p>
+    </section>
+
+        <section>
+      <h2>Education</h2>
+      <p><strong>Coorg Institute of Technology</strong> – B.E. in AI & ML – CGPA: 7.63 (2021–2025)</p>
+      <p><strong>PUC:</strong> Shastry Composite PU College – 76%</p>
+      <p><strong>SSLC:</strong> Anugraha High School – 85.44%</p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+
+<li>
+  <strong>Smart Node.js Application Deployment on AWS</strong><br>
+     I designed and deployed a containerized Node.js application on AWS EKS, leveraging Kubernetes for orchestration and high availability. The application was packaged into a Docker image, pushed to Amazon ECR, and deployed on EKS using YAML manifests for deployment, services, and autoscaling.
+     To ensure observability and reliability, I integrated Amazon CloudWatch with EKS to monitor logs and metrics. I also configured Horizontal Pod Autoscaler based on CPU usage to scale pods dynamically, and used AWS Auto Scaling Groups to scale worker nodes automatically.</li>
+<li>
+  <strong>Automated NGINX Deployment</strong><br>
+  Automated the installation and configuration of NGINX web server on multiple AWS EC2 instances using an Ansible Playbook. The playbook defined tasks to ensure nginx was installed via the APT package manager and started as a service. This streamlined the setup of web servers in a DevOps environment, eliminating manual intervention and ensuring consistency across nodes.</li>
+<li>
+  <strong>GitHub Repo Access Audit automation</strong><br>
+  This project automates the process of auditing GitHub repository access by integrating GitHub APIs with AWS-based infrastructure. A shell script is used to authenticate with GitHub using a Personal Access Token (PAT) and dynamically retrieve the list of users who have read (pull) access to a specific repository. The script supports input for any GitHub repository and filters the collaborators with read permissions using jq. This can be scheduled or triggered via AWS services like AWS Systems Manager (SSM) or Lambda to run periodically and ensure secure access control compliance in DevOps pipelines.
+
+  Key Features:
+
+    Uses GitHub REST API with basic authentication.
+
+    Filters collaborators based on access permissions.
+
+    Script can be integrated with EC2 instances or run as a cron job via AWS Systems Manager.
+
+    Supports security audits and access reviews automatically without manual intervention.</li>
+<li>
+  <strong>Jenkins Multi-Stage CI/CD</strong><br>
+    Designed and implemented a Jenkins declarative pipeline to automate the verification of environment configurations for both front-end and back-end applications using isolated Docker containers. The pipeline is structured with two independent stages:
+    Back-End Stage: Runs inside a Docker container using maven:3.8.1-adoptopenjdk-11 to simulate a Java development environment. It executes mvn --version to validate Maven and Java setup.
+    Front-End Stage: Uses node:16-alpine Docker image to simulate a Node.js environment. It runs node --version to ensure Node.js is installed and working correctly</li>
+<li>
+  <strong>Python application deployment on Kubernetes with Backend Integration</strong><br>
+    Deployed a Python-based web application on a Kubernetes cluster, utilizing YAML configurations for deployment, service, and ingress management.
+    Integrated backend with a database and ensured scalable, containerized deployment using Kubernetes best practices.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Internships</h2>
+      <ul>
+        <li><strong>DevOps Intern @ Microdegree</strong> – Automated AWS resource deployment and CI/CD pipelines (Oct 2024 – Jan 2025)</li>
+        <li><strong>AI Intern @ Innovate Intern</strong> – Built face recognition attendance systems using OpenCV & Python ML (Sep 2024 – Jan 2025)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> Python</li>
+        <li><strong>Cloud:</strong> AWS (EC2, RDS, VPC,S3,Autoscaling,Backup and Recovery,Cloudwatch,CloudTrial,Cloud Front,IAM), GCP(Compute Engine,IAM,Cloud Shell)</li>
+        <li><strong>DevOps Tools:</strong> Docker, Kubernetes, Jenkins, Ansible, Terraform</li>
+        <li><strong>Monitoring:</strong> Prometheus, Grafana</li>
+      </ul>
+    </section>
+    <section>
+      
+  <h2>Certifications</h2>
+  <ul>
+    <li>
+      <strong>AWS Solutions Architect (Associate)</strong><br>
+      Covered core AWS services, architecture best practices, fault tolerance, and security. Enabled me to design reliable cloud solutions.
+    </li>
+    <li>
+      <strong>AWS & DevOps Fundamentals</strong><br>
+      Gained hands-on experience with CI/CD pipelines, Docker, Jenkins, and AWS EC2 infrastructure deployments using automation tools.
+    </li>
+    <li>
+      <strong>Python Programming Certification</strong><br>
+      Mastered core Python concepts including OOPs, file handling, APIs, and scripting logic for automation and backend systems.
+    </li>
+    <li>
+      <strong>NPTEL – Cloud Computing</strong><br>
+      Completed a government-certified course covering virtualization, IaaS, PaaS, SaaS, cloud design, and multi-cloud strategies.
+    </li>
+  </ul>
+</section>
+
+
+
+    <footer>
+      <p>© 2025 Yashwanth G N | Powered by GitHub Pages</p>
+    </footer>
+  </div>
+</body>
+</html>

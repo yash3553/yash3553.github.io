@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('assets/devops-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.92);
+  position: relative;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(10, 20, 63, 0.92); /* Dark blue overlay */
+  z-index: -1;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 3rem; /* adds space on both sides */
+  background-color: rgba(10, 20, 63, 0.92);
+  border-radius: 12px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ffffff33;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.profile-photo img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #00ffff;
+  box-shadow: 0 0 10px #00ffffaa;
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: #00ffff;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.7rem;
+  color: #00ffcc;
+  border-bottom: 2px solid #00ffcc33;
+  padding-bottom: 0.3rem;
+}
+
+a {
+  color: #1fa2ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+section {
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}
+
+section ul li {
+  margin-bottom: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+  border-top: 1px solid #ffffff33;
+  color: #ccc;
+}
